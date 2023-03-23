@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Cabin;
+  src: url("Cabin-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Cabin-Body;
+  src: url("Cabin-Regular.ttf");
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: Cabin;
+  font-size: 54px;
+}
+
+h2 {
+  color: white;
+  font-family: Cabin-Body;
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  font-family: Cabin-Body;
+  font-size: 30px;
+}
+
+.playlists li {
+  list-style-type: circle;
+  font-family: Cabin-Body;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  position: absolute;
+  color: white;
+  font-family: Cabin-Body;
+  font-size: 20px;
+}
+
+p.songname {
+  color: white;
+  font-family: Cabin-Body;
+  font-size: 20px;
+  position: absolute;
+  top: 862px;
+  left: 20px;
+}
+p.yourtopalbums {
+  color: white;
+  font-family: Cabin-Body;
+  font-size: 25px;
+  left: 900px;
+}
+p.starboy {
+  position: absolute;
+  left: 520px;
+  top: 315px;
+}
+p.dielit {
+  position: absolute;
+  left: 1020px;
+  top: 315px;
+}
+p.damn {
+  position: absolute;
+  left: 1520px;
+  top: 315px;
+}
+
+h2.greetings {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+}
+
+h2.albums {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+h2.podcasts {
+  position: absolute;
+  left: 400px;
+  top: 500px;
+}
+
+p.thefellas {
+  left: 520px;
+  top: 615px;
+}
+
+p.happyhour {
+  left: 1020px;
+  top: 615px;
+}
+
+p.jre {
+  left: 1520px;
+  top: 615px;
+}
+
+p.username {
+  left: 1665px;
+  top: 70px;
+}
